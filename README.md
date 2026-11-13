@@ -8,7 +8,7 @@ Tap **Start**. The same gong and a short vibration occur at elapsed **0:00**, **
 
 - Open this directory in Android Studio. Use JDK 17.
 - Install Android SDK Platform 36 and Build Tools 35.0.0 if prompted.
-- Run `./gradlew assembleDebug testDebugUnitTest lintDebug` (Windows: `gradlew.bat`). The first build downloads Gradle and dependencies.
+- Run `sh ./gradlew assembleDebug testDebugUnitTest lintDebug` (Windows: `gradlew.bat`). The first build downloads Gradle and dependencies.
 - Debug APK: `app/build/outputs/apk/debug/app-debug.apk`.
 - Install/run on a Wear OS 3 or newer watch (Android API 30+). A watch speaker/audio output and vibrator are needed for both cues.
 - Allow notifications when asked to keep the ongoing session notification and its Stop action accessible. Denial does not prohibit a foreground service, but can hide its notification from the normal notification list.
