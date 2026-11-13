@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:background="#080C0C"
+    android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/app_name" android:textSize="22sp" android:textColor="#F2F5F2" android:fontFamily="sans-serif-medium"/>
+    <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:text="@string/duration" android:textSize="13sp" android:textColor="#AAC0B9"/>
+    <Button android:id="@+id/start" android:layout_width="96dp" android:layout_height="80dp"
+        android:layout_marginTop="14dp" android:background="@drawable/start_button"
+        android:backgroundTint="@null" android:text="@string/start" android:textAllCaps="false"
+        android:textColor="#081A15" android:textSize="18sp" android:fontFamily="sans-serif-medium"
+        android:contentDescription="@string/start_description"/>
+</LinearLayout>
